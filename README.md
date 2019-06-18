@@ -3,7 +3,7 @@
 ## Obective
 We would like to have you complete the following code test so we can evaluate your iOS skills.  Please place your code in a public Github repository and commit each step of your process so we can review it.
 
-Your assignment is to create a simple Reddit client that shows the top 50 entries from [Reddit](www.reddit.com/top)
+Your assignment is to create a simple Reddit client that shows the top 50 entries from Reddit.
 
 ## Show your work
 
@@ -45,8 +45,12 @@ In addition, for those having a picture (besides the thumbnail), please allow th
 
 ## Resources
 
-    - [Reddit API](http://www.reddit.com/dev/api)
-    - [Apigee](https://apigee.com/console/reddit)
+    - Reddit API: (Please read from 10 to 10 on each so we can see how you handle pagination.)
+    GET: https://www.reddit.com/r/all/top/.json?t=all&limit=10
+    
+    In each page you will have an "after" key and "before" so you can read the key "after" and append it to the url like so to get the next 10 posts.
+    https://www.reddit.com/r/all/top/.json?t=all&limit=10&after={{value_of_after_key}}
+     
     - Example JSON file (top.json) is listed.
     - Example Video of functionality is attached
 
