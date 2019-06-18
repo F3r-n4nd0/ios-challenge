@@ -17,7 +17,7 @@ To do this please follow these guidelines:
     - Use UITableView / UICollectionView to arrange the data.
     - Please refrain from using any dependency manager [cocoapods / carthage / etc], instead, use URLSession
     - Support all Device Orientation
-    - Support all Devices screen (iPhone/iPad)
+    - Support all Devices screen (You can ignore iPad, just for all iPhones)
     - Use Layout by Code (Don't use storyboards or xib files)
 
 ## What to show
@@ -41,7 +41,7 @@ In addition, for those having a picture (besides the thumbnail), please allow th
     - Indicator of unread/read post (updated status, after post it’s selected)
     - Dismiss Post Button (remove the cell from list. Animations required)
     - Dismiss All Button (remove all posts. Animations required)
-    - Support split layout (left side: all posts / right side: detail post) (Optional)
+    - Ignore iPad do it just for iPhone. (So the list and the detail view)
 
 ## Resources
 
