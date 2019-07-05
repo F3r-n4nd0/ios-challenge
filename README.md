@@ -13,7 +13,7 @@ Your assignment is to create a simple Reddit client that shows the top 50 entrie
 ## Guidelines
 To do this please follow these guidelines:
 
-    - Use **VIPER Architecture** (This is mandatory since our main project is using that architecture)
+    - Use VIPER Architecture (This is mandatory since our main project is using that architecture)
     - Assume the latest platform and use Swift
     - Use UITableView / UICollectionView to arrange the data.
     - Please refrain from using any dependency manager [cocoapods / carthage / etc], instead, use URLSession
